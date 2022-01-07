@@ -1,11 +1,7 @@
 {
-  "name": "@feinote/mmjstool",
+  "name": "mmjstool",
   "version": "1.0.0",
   "description": "Mattermost js source code utilities",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/jacklicn/mattermost-utilities.git"
-  },
   "main": "mmjstool/build/src/index.js",
   "bin": {
     "mmjstool": "./bin/mmjstool"
@@ -41,7 +37,7 @@
     "eslint-import-resolver-webpack": "0.13.2",
     "eslint-plugin-header": "3.1.1",
     "eslint-plugin-import": "2.25.4",
-    "@feinote/eslint-config-mattermost": "^1.0.0",
+    "eslint-plugin-mattermost": "mattermost/eslint-plugin-mattermost",
     "eslint-plugin-react": "7.28.0",
     "pkg": "5.5.1",
     "webpack": "5.65.0"
